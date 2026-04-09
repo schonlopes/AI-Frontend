@@ -1,0 +1,11 @@
+Prompt:
+
+Contexto: Atue como um Desenvolvedor Full-Stack focado em UX e Acessibilidade. Crie um site de página única (Landing Page) sobre [INSIRA O TEMA AQUI].
+
+1. Arquitetura de Arquivos: Entregue o código dividido em três arquivos: index.html, style.css e script.js. No HTML, use tags semânticas (header, main, section, article, footer) e atributos ARIA.
+
+2. Design System (CSS): Use Variáveis CSS (:root) para definir a paleta de cores, espaçamentos e arredondamentos (--radius). O layout deve ser Responsivo (Mobile-First) usando CSS Grid e Flexbox. Adicione um modo de Alto Contraste acionado por uma classe .high-contrast no body.Implemente animações de entrada suaves (Scroll Reveal) para as seções.
+
+3. Camada de Inteligência (JS): Gestão de Dados: Não escreva o conteúdo repetitivo (como cards ou itens de galeria) direto no HTML. Crie um array de objetos no JavaScript e renderize-os dinamicamente. Acessibilidade: Implemente funções para aumentar/diminuir o tamanho da fonte globalmente. Componentes: Crie um carrossel funcional e um sistema de abas ou acordeões (expandables).
+
+4. Instrução de Edição (Flexibilidade): O código deve ser modular. Comente as seções do CSS para que eu possa localizar facilmente onde mudar o grid-template-columns ou as cores primárias. Entregue primeiro a estrutura do HTML, depois o CSS e por fim o JS.
